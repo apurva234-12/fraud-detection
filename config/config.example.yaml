@@ -1,0 +1,11 @@
+# Example configuration override file.
+# Copy to config/config.yaml and adjust as needed; core.config.load_config()
+# will merge these over the built-in defaults in core/config.py.
+# Any key not listed here keeps its default value.
+
+timezone: "Asia/Kolkata"
+allow_self_transactions: false
+velocity_window_days: 1
+random_seed: 42
+synthetic_num_accounts: 200
+synthetic_num_normal_transactions: 3000
